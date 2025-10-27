@@ -211,3 +211,60 @@ def get_live_features(location, past_days=90):
         "soil_moist": nasa["soil_moist"]
     }
     return features
+
+# Bettina
+# ---------------- SATELLITE IMAGES ---------------- #
+def get_satellite_image(lat, lon, zoom=8, size="600x600", map_type="satellite", api_key=None):
+    """
+    Fetch satellite image of a location using Google Maps Static API.
+    Args:
+        lat, lon: Coordinates
+        zoom: Zoom level (1-20)
+        size: Image size (WxH)
+        map_type: 'satellite', 'roadmap', 'terrain', 'hybrid'
+        api_key: Your Google Maps API key
+    Returns:
+        Image bytes
+    """
+    if not api_key:
+        print("No Google Maps API key provided, cannot fetch satellite image.")
+        return None
+
+    url = "https://maps.googleapis.com/maps/api/staticmap"
+    params = {
+        "center": f"{lat},{lon}",
+        "zoom": zoom,
+        "size": size,
+        "maptype": map_type,
+        "key": api_key
+    }
+
+    try:
+        import requests
+        response = requests.get(url, params=params, timeout=10)
+        if response.status_code == 200:
+            return response.content  # You can save this as an image file
+        else:
+            print(f"Failed to fetch satellite image: {response.status_code}")
+    except Exception as e:
+        print("Error fetching satellite image:", e)
+        return None
+
+
+def save_satellite_image(lat, lon, filename="sat_image.png", api_key=None):
+    """Fetch and save satellite image locally."""
+    img_bytes = get_satellite_image(lat, lon, api_key=api_key)
+    if img_bytes:
+        with open(filename, "wb") as f:
+            f.write(img_bytes)
+        print(f"Satellite image saved as {filename}")
+        return filename
+    return None
+def get_live_features_with_image(location, past_days=90, google_api_key=None):
+    features = get_live_features(location, past_days=past_days)
+    
+    # Fetch satellite image
+    img_file = save_satellite_image(features["lat"], features["lon"], api_key=google_api_key)
+    features["satellite_image"] = img_file  # path to saved image
+    
+    return features
