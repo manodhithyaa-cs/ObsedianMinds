@@ -1,0 +1,306 @@
+[
+  {
+    "Location": "Marina Beach, Chennai",
+    "Predicted Risk": "🚨 High Risk (95.3%)",
+    "aqi": 2,
+    "clouds": 100.0,
+    "humidity": 94.0,
+    "pressure": 1008.0,
+    "rainfall": 0.0,
+    "temperature": 24.86,
+    "visibility": 4000,
+    "wind_speed": 3.09
+  },
+  {
+    "Location": "Juhu Beach, Mumbai",
+    "Predicted Risk": "🚨 High Risk (95.2%)",
+    "aqi": 2,
+    "clouds": 75.0,
+    "humidity": 89.0,
+    "pressure": 1007.0,
+    "rainfall": 0.0,
+    "temperature": 26.03,
+    "visibility": 3000,
+    "wind_speed": 6.17
+  },
+  {
+    "Location": "Baga Beach, Goa",
+    "Predicted Risk": "🚨 High Risk (95.2%)",
+    "aqi": 2,
+    "clouds": 100.0,
+    "humidity": 89.0,
+    "pressure": 1010.0,
+    "rainfall": 0.0,
+    "temperature": 26.0,
+    "visibility": 10000,
+    "wind_speed": 9.22
+  },
+  {
+    "Location": "Varkala Beach, Kerala",
+    "Predicted Risk": "🚨 High Risk (95.1%)",
+    "aqi": 2,
+    "clouds": 100.0,
+    "humidity": 87.0,
+    "pressure": 1012.0,
+    "rainfall": 0.0,
+    "temperature": 25.17,
+    "visibility": 10000,
+    "wind_speed": 4.97
+  },
+  {
+    "Location": "Elliot Beach, Chennai",
+    "Predicted Risk": "🚨 High Risk (95.3%)",
+    "aqi": 2,
+    "clouds": 100.0,
+    "humidity": 95.0,
+    "pressure": 1008.0,
+    "rainfall": 0.0,
+    "temperature": 24.89,
+    "visibility": 4000,
+    "wind_speed": 3.09
+  },
+  {
+    "Location": "Kovalam Beach, Trivandrum",
+    "Predicted Risk": "🚨 High Risk (95.0%)",
+    "aqi": 2,
+    "clouds": 40.0,
+    "humidity": 83.0,
+    "pressure": 1011.0,
+    "rainfall": 0.0,
+    "temperature": 24.85,
+    "visibility": 4000,
+    "wind_speed": 2.06
+  },
+  {
+    "Location": "Puri Beach, Odisha",
+    "error": "❌ Invalid or out-of-India location: Puri Beach, Odisha"
+  },
+  {
+    "Location": "Digha Beach, West Bengal",
+    "Predicted Risk": "🚨 High Risk (93.4%)",
+    "aqi": 2,
+    "clouds": 100.0,
+    "humidity": 76.0,
+    "pressure": 1012.0,
+    "rainfall": 0.0,
+    "temperature": 27.78,
+    "visibility": 10000,
+    "wind_speed": 2.38
+  },
+  {
+    "Location": "Rishikonda Beach, Visakhapatnam",
+    "error": "❌ Invalid or out-of-India location: Rishikonda Beach, Visakhapatnam"
+  },
+  {
+    "Location": "Tarkarli Beach, Maharashtra",
+    "Predicted Risk": "🚨 High Risk (95.2%)",
+    "aqi": 2,
+    "clouds": 100.0,
+    "humidity": 92.0,
+    "pressure": 1009.0,
+    "rainfall": 0.0,
+    "temperature": 25.35,
+    "visibility": 4872,
+    "wind_speed": 9.96
+  },
+  {
+    "Location": "Dal Lake, Srinagar",
+    "Predicted Risk": "⚠️ Moderate Risk (59.7%)",
+    "aqi": 2,
+    "clouds": 70.0,
+    "humidity": 33.0,
+    "pressure": 1019.0,
+    "rainfall": 0.0,
+    "temperature": 14.48,
+    "visibility": 10000,
+    "wind_speed": 2.38
+  },
+  {
+    "Location": "Chilika Lake, Odisha",
+    "Predicted Risk": "🚨 High Risk (95.0%)",
+    "aqi": 2,
+    "clouds": 45.0,
+    "humidity": 82.0,
+    "pressure": 1011.0,
+    "rainfall": 0.0,
+    "temperature": 27.35,
+    "visibility": 10000,
+    "wind_speed": 6.53
+  },
+  {
+    "Location": "Vembanad Lake, Kerala",
+    "Predicted Risk": "🚨 High Risk (95.2%)",
+    "aqi": 2,
+    "clouds": 100.0,
+    "humidity": 90.0,
+    "pressure": 1012.0,
+    "rainfall": 0.0,
+    "temperature": 24.1,
+    "visibility": 10000,
+    "wind_speed": 2.77
+  },
+  {
+    "Location": "Loktak Lake, Manipur",
+    "Predicted Risk": "🚨 High Risk (95.3%)",
+    "aqi": 2,
+    "clouds": 42.0,
+    "humidity": 94.0,
+    "pressure": 1015.0,
+    "rainfall": 0.0,
+    "temperature": 22.67,
+    "visibility": 10000,
+    "wind_speed": 0.42
+  },
+  {
+    "Location": "Sambhar Lake, Rajasthan",
+    "Predicted Risk": "🚨 High Risk (95.0%)",
+    "aqi": 2,
+    "clouds": 100.0,
+    "humidity": 83.0,
+    "pressure": 1015.0,
+    "rainfall": 0.0,
+    "temperature": 21.67,
+    "visibility": 10000,
+    "wind_speed": 5.38
+  },
+  {
+    "Location": "Hussain Sagar, Hyderabad",
+    "Predicted Risk": "🚨 High Risk (92.2%)",
+    "aqi": 2,
+    "clouds": 75.0,
+    "humidity": 74.0,
+    "pressure": 1011.0,
+    "rainfall": 0.0,
+    "temperature": 27.16,
+    "visibility": 5000,
+    "wind_speed": 1.54
+  },
+  {
+    "Location": "Upper Lake, Bhopal",
+    "Predicted Risk": "🚨 High Risk (95.3%)",
+    "aqi": 2,
+    "clouds": 40.0,
+    "humidity": 94.0,
+    "pressure": 1013.0,
+    "rainfall": 0.0,
+    "temperature": 23.1,
+    "visibility": 4000,
+    "wind_speed": 4.12
+  },
+  {
+    "Location": "Kodaikanal Lake, Tamil Nadu",
+    "Predicted Risk": "🚨 High Risk (93.1%)",
+    "aqi": 2,
+    "clouds": 100.0,
+    "humidity": 89.0,
+    "pressure": 1013.0,
+    "rainfall": 0.0,
+    "temperature": 12.19,
+    "visibility": 10000,
+    "wind_speed": 2.33
+  },
+  {
+    "Location": "Naini Lake, Nainital",
+    "Predicted Risk": "🚨 High Risk (77.9%)",
+    "aqi": 2,
+    "clouds": 99.0,
+    "humidity": 62.0,
+    "pressure": 1018.0,
+    "rainfall": 0.0,
+    "temperature": 6.91,
+    "visibility": 10000,
+    "wind_speed": 1.52
+  },
+  {
+    "Location": "Pulicat Lake, Tamil Nadu",
+    "Predicted Risk": "🚨 High Risk (95.2%)",
+    "aqi": 2,
+    "clouds": 100.0,
+    "humidity": 91.0,
+    "pressure": 1009.0,
+    "rainfall": 0.0,
+    "temperature": 23.5,
+    "visibility": 10000,
+    "wind_speed": 8.75
+  },
+  {
+    "Location": "Ganga River, Varanasi",
+    "error": "❌ Invalid or out-of-India location: Ganga River, Varanasi"
+  },
+  {
+    "Location": "Yamuna River, Delhi",
+    "Predicted Risk": "⚠️ Moderate Risk (72.5%)",
+    "aqi": 2,
+    "clouds": 75.0,
+    "humidity": 53.0,
+    "pressure": 1015.0,
+    "rainfall": 0.0,
+    "temperature": 24.16,
+    "visibility": 2500,
+    "wind_speed": 2.57
+  },
+  {
+    "Location": "Brahmaputra River, Guwahati",
+    "error": "❌ Invalid or out-of-India location: Brahmaputra River, Guwahati"
+  },
+  {
+    "Location": "Godavari River, Nashik",
+    "Predicted Risk": "🚨 High Risk (95.1%)",
+    "aqi": 2,
+    "clouds": 95.0,
+    "humidity": 85.0,
+    "pressure": 1009.0,
+    "rainfall": 0.0,
+    "temperature": 21.58,
+    "visibility": 10000,
+    "wind_speed": 1.23
+  },
+  {
+    "Location": "Krishna River, Vijayawada",
+    "error": "❌ Invalid or out-of-India location: Krishna River, Vijayawada"
+  },
+  {
+    "Location": "Cauvery River, Mysuru",
+    "error": "❌ Invalid or out-of-India location: Cauvery River, Mysuru"
+  },
+  {
+    "Location": "Sabarmati River, Ahmedabad",
+    "Predicted Risk": "🚨 High Risk (95.3%)",
+    "aqi": 2,
+    "clouds": 75.0,
+    "humidity": 94.0,
+    "pressure": 1010.0,
+    "rainfall": 0.0,
+    "temperature": 24.01,
+    "visibility": 4000,
+    "wind_speed": 5.14
+  },
+  {
+    "Location": "Mahanadi River, Cuttack",
+    "error": "❌ Invalid or out-of-India location: Mahanadi River, Cuttack"
+  },
+  {
+    "Location": "Periyar River, Kerala",
+    "Predicted Risk": "🚨 High Risk (95.3%)",
+    "aqi": 2,
+    "clouds": 75.0,
+    "humidity": 100.0,
+    "pressure": 1012.0,
+    "rainfall": 0.0,
+    "temperature": 23.0,
+    "visibility": 2500,
+    "wind_speed": 1.54
+  },
+  {
+    "Location": "Teesta River, Sikkim",
+    "Predicted Risk": "🚨 High Risk (83.1%)",
+    "aqi": 2,
+    "clouds": 17.0,
+    "humidity": 65.0,
+    "pressure": 1013.0,
+    "rainfall": 0.0,
+    "temperature": 22.97,
+    "visibility": 10000,
+    "wind_speed": 1.96
+  }
+]
