@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Water Check | AquaScope</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar, same for both pages -->
+  <nav class="navbar">
+    <div class="nav-left">AquaScope</div>
+    <ul class="nav-links">
+      <li><a href="page1.html">Home</a></li>
+      <li><a href="page2.html">Water Check</a></li>
+      <li><a href="#">PolluRank 100</a></li>
+      <li><a href="#">About us</a></li>
+    </ul>
+    <button class="profile-btn" onclick="window.location.href='profile.html'">Profile</button>
+  </nav>
+
+  <!-- Water Check Main Form -->
+  <section class="water-check">
+    <h1 class="hero-title">Water Check</h1>
+    <div class="hero-subtitle">
+      Subheading that sets up context, shares more info about the author, or<br>
+      generally gets people psyched to keep reading
+    </div>
+    <div class="form-row">
+      <input type="text" placeholder="Enter Location" style="padding: .5rem 1.5rem; color: black">
+      <input type="date" placeholder="Select Date">
+    </div>
+    <button class="search-btn">Search</button>
+    <div class="contam-result-box">
+      <div class="result-title">
+        Contamination <span title="Information">&#9432;</span>
+      </div>
+      <div class="percent-red">72%</div>
+      <div class="result-params">
+        <div><b>pH:</b> 6.2! Acidic</div>
+        <div><b>TDS:</b> 750 ppm</div>
+        <div><b>Industrial Index:</b> 0.8</div>
+      </div>
+      <div class="risk">Risk: <b>High</b> <span class="map-icon">&#128205;</span></div>
+    </div>
+  </section>
+
+  <!-- Download Report / Map Section -->
+  <section class="world-map-section">
+    <a class="download-btn" href="#">Download Report</a>
+    <img src="image7.jpg" alt="World Map" class="world-map-img">
+  </section>
+
+  <!-- Related Articles -->
+  <section class="related-posts">
+    <h2>Related articles or posts</h2>
+    <div class="related-cards">
+      <div class="related-card">
+        <img src="image8.jpg" alt="Post 1">
+        <div class="related-title">Title</div>
+        <div class="related-author">Author</div>
+      </div>
+      <div class="related-card">
+        <img src="image9.jpg" alt="Post 2">
+        <div class="related-title">Title</div>
+        <div class="related-author">Author</div>
+      </div>
+      <div class="related-card">
+        <img src="image10.jpg" alt="Post 3">
+        <div class="related-title">Title</div>
+        <div class="related-author">Author</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-left">
+        <div>Site name</div>
+        <div class="footer-socials">
+          <span>🌐</span> <span>🔗</span> <span>📷</span> <span>▶️</span>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-topic">
+          <div>Topic</div>
+          <div>Page</div>
+          <div>Page</div>
+        </div>
+        <div class="footer-topic">
+          <div>Topic</div>
+          <div>Page</div>
+          <div>Page</div>
+        </div>
+        <div class="footer-topic">
+          <div>Topic</div>
+          <div>Page</div>
+          <div>Page</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

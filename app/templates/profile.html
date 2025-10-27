@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile | AquaScope</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">AquaScope</div>
+    <ul class="nav-links">
+      <li><a href="page1.html">Home</a></li>
+      <li><a href="page2.html">Water Check</a></li>
+      <li><a href="#">PolluRank 100</a></li>
+      <li><a href="#">About us</a></li>
+    </ul>
+    <button class="profile-btn" onclick="window.location.href='profile.html'">Profile</button>
+  </nav>
+
+  <!-- Profile Hero Banner -->
+  <section class="profile-hero" style="background-image: url('image1.jpg');">
+    <div class="profile-hero-content">
+      <h1 class="hero-title">Hello XYZ!!!</h1>
+      <div class="hero-subtitle">
+        Subheading with description of your shopping site
+      </div>
+      <button class="profile-overlay-btn">Edit Profile</button>
+    </div>
+  </section>
+
+  <!-- Personal Information Form Section -->
+  <section class="profile-info-section">
+    <h2>Your Profile Information</h2>
+    <form class="profile-info-form">
+      <label>
+        Name:
+        <input type="text" name="name" value="XYZ">
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email" value="xyz@email.com">
+      </label>
+      <label>
+        Address:
+        <input type="text" name="address" value="123 Main St, City">
+      </label>
+      <label>
+        Phone:
+        <input type="tel" name="phone" value="+91 90000 00000">
+      </label>
+      <button type="submit" class="save-profile-btn">Save</button>
+    </form>
+  </section>
+
+  <!-- Profile Content Grid (Remaining Images/Sections) -->
+  <section class="profile-section">
+    <div class="profile-items">
+      <div class="profile-item">
+        <img src="image2.jpg" alt="Profile Section">
+      </div>
+      <div class="profile-item">
+        <img src="image3.jpg" alt="Profile Section 2">
+      </div>
+    </div>
+  </section>
+
+  <!-- Donation & Footer (reuse from previous pages) -->
+  <section class="ngo-donation">
+    <h2>Donation for NGOs</h2>
+    <div class="ngo-actions">
+      <button>Pay</button>
+      <button>NGOs</button>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-left">
+        <div>Site name</div>
+        <div class="footer-socials">
+          <span>🌐</span> <span>🔗</span> <span>📷</span> <span>▶️</span>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-topic">
+          <div>Topic</div>
+          <div>Page</div>
+          <div>Page</div>
+        </div>
+        <div class="footer-topic">
+          <div>Topic</div>
+          <div>Page</div>
+          <div>Page</div>
+        </div>
+        <div class="footer-topic">
+          <div>Topic</div>
+          <div>Page</div>
+          <div>Page</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

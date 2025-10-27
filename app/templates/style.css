@@ -1,0 +1,506 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(to bottom, #003466 0%, #009ad6 100%);
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #022c53;
+  padding: 1rem 2rem;
+}
+.nav-left { font-weight: 600; font-size: 1.2rem; }
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li a { color: #fff; text-decoration: none; }
+.profile-btn {
+  background: #35bcff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 8%;
+  gap: 2rem;
+}
+.hero-content {
+  flex: 1 1 40%;
+}
+.hero-title { font-size: 2.5rem; font-weight: 700; }
+.hero-subtitle { font-size: 1.2rem; opacity: 0.8; margin-bottom: 2rem; }
+.predict-btn {
+  background: #fff;
+  color: #003466;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.hero-image {
+  max-width: 350px;
+  border-radius: 1rem;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+.water-area, .contaminated-water, .feedback {
+  padding: 2rem 8%;
+}
+.water-area h2, .contaminated-water h2, .feedback h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.area-cards {
+  display: flex;
+  gap: 2rem;
+}
+.area-card {
+  background: rgba(0,0,0,0.2);
+  border-radius: 1rem;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.15);
+  padding-bottom: 1rem;
+  width: 200px;
+}
+.area-card img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  height: 160px;
+}
+.area-title { font-weight: 600; font-size: 1.1rem; margin: 1rem 0 0.2rem 1rem;}
+.area-desc { opacity: 0.75; font-size: 0.95rem; margin-left: 1rem;}
+.predict-contam {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2.5rem 8%;
+  gap: 2.5rem;
+}
+.contam-left { max-width: 40%; }
+.sub-section { margin-bottom: 1.2rem;}
+.subhead { font-weight: 600; margin-bottom: 0.3rem;}
+.body-small { font-size: 0.98rem; opacity: 0.7;}
+.contam-image {
+  max-width: 340px;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+.water-cards {
+  display: flex;
+  gap: 2rem;
+}
+.water-card {
+  background: rgba(0,0,0,0.15);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 330px;
+}
+.water-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.water-label { font-weight: 700; margin-top: 1rem;}
+.water-desc { font-size: 0.95rem; margin-top: 0.25rem; opacity: 0.8; }
+.feedback-cards {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.feedback-card {
+  background: #101010;
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  width: 250px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  color: #fff;
+}
+.feedback-text {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.feedback-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.profile-avatar {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #333;
+  border-radius: 100%;
+}
+.profile-name { font-weight: 600; }
+.profile-desc { font-size: 0.92rem; opacity: 0.7; }
+.ngo-donation {
+  background: #111;
+  color: #fff;
+  padding: 3rem 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ngo-donation h2 { margin: 0; }
+.ngo-actions { display: flex; gap: 1rem; }
+.ngo-actions button {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 7px;
+  border: none;
+  background: #fff;
+  color: #222;
+  cursor: pointer;
+}
+.ngo-actions button:last-child {
+  background: #eaeaea;
+  color: #111;
+}
+footer {
+  background: #111;
+  color: #fff;
+  padding: 2rem 8% 1rem 8%;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid #333;
+  padding-top: 2rem;
+}
+.footer-left {
+  min-width: 210px;
+}
+.footer-socials span {
+  margin-right: 16px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.footer-right {
+  display: flex;
+  gap: 3rem;
+}
+.footer-topic > div:first-child { font-weight: 700; margin-bottom: 0.5rem;}
+.footer-topic > div:not(:first-child) { color: #aaa; margin-bottom: 0.3rem; }
+
+
+/* page2 */
+
+/* Water Check Page 2 Styles */
+.water-check {
+  padding: 3rem 8% 2rem 8%;
+}
+.water-check .hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.water-check .hero-subtitle {
+  font-size: 1.1rem;
+  color: #cee6f7;
+  margin-bottom: 2rem;
+}
+.water-check .form-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.water-check select,
+.water-check input[type="date"] {
+  padding: 0.7rem 1rem;
+  border-radius: 0.2rem;
+  border: 2px solid #cedded;
+  min-width: 270px;
+  background: #fff;
+  font-size: 1rem;
+}
+.search-btn {
+  margin-top: 0.6rem;
+  padding: 0.6rem 2rem;
+  border-radius: 4px;
+  border: 2px solid #44c0fe;
+  background: transparent;
+  color: #fff;
+  font-size: 1.09rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+.contam-result-box {
+  margin-top: 2.5rem;
+  background: #fff;
+  color: #111;
+  padding: 2rem 1.8rem;
+  border-radius: 0.6rem;
+  max-width: 410px;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.10);
+}
+.result-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+.percent-red {
+  color: #e12d39;
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.result-params {
+  font-size: 1.11rem;
+  margin-bottom: 1rem;
+}
+.risk {
+  font-size: 1.13rem;
+  margin-top: 0.4rem;
+}
+.map-icon {
+  font-size: 1.2rem;
+  margin-left: 6px;
+}
+.world-map-section {
+  margin: 4rem 8% 2rem 8%;
+}
+.download-btn {
+  display: inline-block;
+  background: #33c7ff;
+  color: #fff;
+  padding: 0.7rem 1.3rem;
+  border-radius: 4px;
+  font-size: 1.13rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 1.8rem;
+}
+.world-map-img {
+  display: block;
+  margin: 1.5rem 0 0 0;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 14px;
+  box-shadow: 0 3px 18px rgba(0,0,0,0.13);
+}
+.related-posts {
+  padding: 2.5rem 8% 2.2rem 8%;
+}
+.related-posts h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.related-cards {
+  display: flex;
+  gap: 2rem;
+  margin: 0 0 4rem 0;
+}
+.related-card {
+  background: rgba(0,0,0,0.11);
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.13);
+  padding-bottom: 1.2rem;
+  width: 250px;
+}
+.related-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.related-title {
+  font-size: 1.11rem;
+  font-weight: 600;
+  margin-top: 0.7rem;
+  margin-left: 1rem;
+}
+.related-author {
+  font-size: 1rem;
+  color: #b6e5fa;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+/* 
+.profile-hero {
+  width: 100%;
+  min-height: 340px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.profile-hero-content {
+  width: 100%;
+  padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.28);
+  text-align: center;
+}
+.profile-hero .hero-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.profile-hero .hero-subtitle {
+  font-size: 1.15rem;
+  margin-bottom: 2.5rem;
+}
+.profile-overlay-btn {
+  position: absolute;
+  top: 24px;
+  right: 48px;
+  padding: 0.8rem 1.7rem;
+  background: rgba(255,255,255,0.75);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.14rem;
+  color: #183a53;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.09);
+}
+.profile-section {
+  background: none;
+  padding: 3rem 8% 2rem 8%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.profile-items {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.profile-item {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  width: 380px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.profile-item img {
+  width: 96%;
+  height: 96%;
+  object-fit: contain;
+  border-radius: 0.9rem;
+} */
+
+.profile-hero {
+  width: 100%;
+  min-height: 340px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.profile-hero-content {
+  width: 100%;
+  padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.36);
+  text-align: center;
+}
+.profile-hero .hero-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.profile-hero .hero-subtitle {
+  font-size: 1.15rem;
+  margin-bottom: 2.5rem;
+}
+.profile-overlay-btn {
+  position: absolute;
+  top: 24px;
+  right: 48px;
+  padding: 0.8rem 1.7rem;
+  background: rgba(255,255,255,0.75);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.14rem;
+  color: #183a53;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.09);
+}
+.profile-info-section {
+  background: #fff;
+  width: 480px;
+  max-width: 98vw;
+  margin: -40px auto 2.5rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.11);
+  padding: 2.4rem 2rem 2rem 2rem;
+  z-index: 2;
+  position: relative;
+}
+.profile-info-section h2 {
+  color: #002b4d;
+  margin-top: 0;
+  text-align: center;
+}
+.profile-info-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.profile-info-form label {
+  color: #0a2a4d;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.profile-info-form input {
+  margin-top: 0.3rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.4rem;
+  border: 1.2px solid #b8daf1;
+  font-size: 1.07rem;
+}
+.save-profile-btn {
+  margin-top: 1rem;
+  align-self: flex-end;
+  background: #007ad1;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.7rem 1.8rem;
+  font-size: 1.09rem;
+  cursor: pointer;
+}
